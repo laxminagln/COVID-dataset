@@ -1,4 +1,4 @@
-# COVID-dataset
+# ![COVID-dataset](https://github.com/laxminagln/COVID-dataset/blob/master/covid.py)
 Python program to create dataset for COVID
 - Requisites
 ```python
