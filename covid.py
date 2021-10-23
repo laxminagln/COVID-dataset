@@ -24,10 +24,9 @@ for i in browser.find_elements_by_xpath('//*[@id="main_table_countries_today"]/t
 df = df.iloc[1:]
 print(df)
 
-base_path = 'path to save dataset'
+base_path = ''  #give the path here
 
 path = os.path.join(base_path,'Covid_Dataset_.csv')
-#os.mkdir(path)
 df.to_csv(path, index = False)
 print("The dataset has been saved at the location: "+path)
 browser.quit()
