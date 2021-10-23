@@ -29,5 +29,5 @@ base_path = 'path to save dataset'
 path = os.path.join(base_path,'Covid_Dataset_.csv')
 #os.mkdir(path)
 df.to_csv(path, index = False)
-print("The dataset has been saved at the loction: "+path)
+print("The dataset has been saved at the location: "+path)
 browser.quit()
